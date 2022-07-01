@@ -1,10 +1,10 @@
-@import 'typeography';
-@import 'slick-carousel/slick/slick.css';
-@import 'slick-carousel/slick/slick-theme.css';
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import 'typeography';
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
 
 html {
   scroll-padding-top: 100px;
@@ -73,6 +73,10 @@ h6 {
   .slick-list {
     overflow: visible;
     margin-bottom: 2rem;
+
+    @media screen and (max-width: 500px) {
+      overflow: hidden;
+    }
   }
 
   .slick-track {

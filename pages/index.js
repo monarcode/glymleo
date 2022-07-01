@@ -18,7 +18,7 @@ import { cars } from '../components/cars';
 function Testimonial({ name, img, message }) {
   return (
     <div className="bg-white p-4 rounded-3xl relative min-h-[250px] flex flex-col">
-      <div className="relative overflow-hidden rounded-full h-24 w-24 -top-16 left-[50%] border-8 border-[#f2f2f2] -translate-x-2/4">
+      <div className="relative overflow-hidden rounded-full h-24 w-24 border-8 border-[#f2f2f2] lg:-translate-x-2/4 lg:-top-16 lg:left-[50%]">
         <Image src={img.src} alt="dp" layout="fill" />
       </div>
       <p className="w-[90%] mx-auto text-center text-sm -mt-8 mb-8">
@@ -328,7 +328,7 @@ export default function Home() {
 
       {/* stats section */}
       <section id="" className="min-h-[500px] grid">
-        <div className="bg-highlight bg-waves bg-no-repeat bg-right-bottom bg-cover h-[85%] mt-auto grid">
+        <div className="bg-highlight lg:bg-waves bg-no-repeat bg-right-bottom bg-cover h-[85%] mt-auto grid">
           <div className="container flex">
             <div className="flex-1 bg-slate-300/0 flex flex-col justify-center">
               <div className="flex gap-4 lg:gap-10">
