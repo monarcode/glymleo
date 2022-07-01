@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { motion } from 'framer-motion';
 
-export function ShowRoomItem({ car, click }) {
+export default function ShowRoomItem({ car, click }) {
   const { id, name, img, price, hp, engine, trans, mpg } = car;
 
   return (

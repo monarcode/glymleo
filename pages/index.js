@@ -13,7 +13,7 @@ import bobby from 'public/bobby.png';
 import emmanuel from 'public/emmanuel.png';
 import helen from 'public/helen.png';
 import teggy from 'public/teggy.png';
-import { cars } from './cars';
+import { cars } from '../components/cars';
 
 function Testimonial({ name, img, message }) {
   return (
@@ -30,8 +30,6 @@ function Testimonial({ name, img, message }) {
 }
 
 export default function Home() {
-  const carz = [porche, chev, toyota, gwagon];
-
   const [imgIndex, setImgIndex] = useState(0);
   const [currentSlide, setcurrentSlide] = useState(0);
 

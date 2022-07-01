@@ -2,7 +2,7 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import { cars } from './cars';
+import { cars } from '../components/cars';
 // import { ShowRoomItem } from './ShowRoomItem';
 
 function Showroom() {
