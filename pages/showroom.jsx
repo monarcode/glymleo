@@ -1,9 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import { AnimatePresence, motion } from 'framer-motion';
 import Image from 'next/image';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { cars } from '../components/cars';
-// import { ShowRoomItem } from './ShowRoomItem';
 
 function Showroom() {
   const [expanded, setExpanded] = useState(null);
